@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products content</title>
+    <link rel="stylesheet" href="../panels and accesories/style.css" />
+    <link rel="stylesheet" href="../../Home/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="../Home/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Devanagari:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oranienbaum&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <!-- ======================================================Navbar======================= -->
+
+      <div class="navbar-main">
+        <div class="navbar-container">
+          <div class="navbar-logo">
+            <img
+              src="../../Home/public/images/Logo.png"
+              alt="logo"
+              class="navbar-logo-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="navbar-links">
+            <a href="/home">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/products">Products</a>
+            <a href="/contact">Contact</a>
+          </div>
+          <div class="contact-btn">
+            <img
+              src="../../Home/public/images/search-icon.png"
+              alt="logo"
+              class="search-icon"
+              loading="lazy"
+            />
+            <a href="/Contact">Contact Us</a>
+          </div>
+
+          <div class="toggle-icon-container">
+            <img
+              src="../../Home/public/images/menu.png"
+              class="toggle-icon"
+              alt="menu-icon"
+              loading="lazy"
+              id="bar"
+            />
+          </div>
+
+          <div class="toggle-container" id="menu">
+            <div class="toggle-content">
+              <a href="/">Home</a>
+              <a href="/about">About Us</a>
+              <a href="/products">Products</a>
+              <a href="/contact">Contact</a>
+
+              <div>
+                <img
+                  src="../../Home/public/images/close.png"
+                  class="close-icon"
+                  alt="close-icon"
+                  loading="lazy"
+                  id="x"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products-categories">
+        <div class="products-categories-layout">
+          <img
+            src="../../Home/public/images/Hero_.png"
+            alt="products-categories-layout"
+            class="products-categories-layout-image"
+            loading="lazy"
+          />
+          <div class="products-categories-layout-text">Roofing Sheets</div>
+        </div>
+
+        <div class="products-categories-content">
+          <div class="products-categories-p">
+            In the dynamic landscape of modern construction, efficiency and
+            performance are paramount. ISO panels, renowned for their
+            exceptional insulation properties, have revolutionized the industry
+            by offering a versatile solution for various building applications.
+            These panels, along with a range of complementary accessories, have
+            become indispensable assets in the construction toolkit,
+            streamlining processes and elevating project outcomes.
+          </div>
+          <div class="products-categories-p">
+            Firstly, ISO panels serve as the backbone of structural integrity
+            and energy efficiency in construction projects. Whether it's
+            roofing, walling, or flooring, these panels provide a seamless
+            barrier against heat transfer, moisture infiltration, and sound
+            transmission. Their modular design allows for swift installation,
+            reducing labor costs and project timelines. With customizable
+            dimensions and insulation materials such as expanded polystyrene
+            (EPS), polyurethane (PUR), or polyisocyanurate (PIR), ISO panels
+            cater to diverse architectural requirements while maintaining
+            superior thermal performance.
+          </div>
+          <div class="products-categories-p">
+            Moreover, the integration of ISO panel accessories further enhances
+            their functionality and adaptability on-site. From sealants and
+            adhesives to fasteners and profiles, these accessories ensure
+            airtightness, structural stability, and aesthetic coherence in
+            construction assemblies. Corner profiles and joint tapes facilitate
+            precise panel alignment and sealing, mitigating thermal bridging and
+            enhancing energy efficiency. Additionally, flashings and trims
+            provide weatherproofing solutions, safeguarding building envelopes
+            against external elements and prolonging their lifespan.
+          </div>
+        </div>
+      </div>
+      <!-- =======================================================================FOOTER========================================== -->
+      <div class="footer">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img
+              src="../../Home/public/images/Logo white.png"
+              alt="Footer-logo"
+              class="footer-logo-image"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="footer-links">
+            <a href="/home">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/Products">Products</a>
+            <a href="/Contact">Contact</a>
+          </div>
+
+          <div class="footer-address">
+            <div class="footer-address-h1">Naivasha,</div>
+            <div class="footer-address-h1">Kenya</div>
+          </div>
+        </div>
+        <div class="footer-rights">
+          <div class="footer-rights-h1">
+            2024 ISO PANELS. All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      let open = document.getElementById("bar");
+      let close = document.getElementById("x");
+      let menu = document.getElementById("menu");
+
+      open.addEventListener("click", function () {
+        menu.style.display = "block";
+      });
+
+      close.addEventListener("click", function () {
+        menu.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
